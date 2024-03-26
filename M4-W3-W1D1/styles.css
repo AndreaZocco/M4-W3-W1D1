@@ -1,0 +1,84 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px; 
+}
+
+#logo {
+    border-radius: 50px;
+    display: block;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#books .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s; 
+}
+
+#books .card:hover {
+    transform: scale(1.03); 
+}
+
+#books .card-img-top {
+    height: 200px;
+    object-fit: cover; 
+}
+
+#books .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.add-to-cart {
+    background-color: #007bff; 
+    color: white;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3; 
+}
+
+.skip-book {
+    background-color: #6c757d; 
+    color: white;
+}
+
+.skip-book:hover {
+    background-color: #545b62;
+}
+
+#cart {
+    position: sticky;
+    top: 20px; 
+}
+
+#clearCart {
+    width: 100%;
+}
+
+#searchInput {
+    padding: 10px 20px;
+    font-size: 16px; 
+    margin-bottom: 20px; 
+}
+
+.cart-badge {
+    background-color: #28a745; 
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+.remove-from-cart {
+    font-size: 0.8em; 
+}
+
+#cart-container {
+    top: 20px;
+}
